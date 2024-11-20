@@ -11,7 +11,7 @@ const Login = (props) => {
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch("http://localhost:4000/api/auth/login", {
+        const response = await fetch("https://inotebook-backend-8csl.onrender.com/api/auth/login", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
